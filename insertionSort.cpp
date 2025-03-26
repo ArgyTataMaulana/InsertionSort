@@ -60,11 +60,20 @@ void display()
     cout << "Total Pass = " << n - 1 << endl;
     cout << "==================" << endl;
     cout << "Element Array yang telah tersusun" << endl;
-    cout << "==================";
+    cout << "==================" << endl;
 
     for (int j = 0; j < n; j++)
     {
         cout << arr[j] << endl;
     }
     cout << endl;
+}
+
+int main()
+{
+    input();
+    insertionSort();
+    display();
+    system("Pause");
+    return 0;
 }
